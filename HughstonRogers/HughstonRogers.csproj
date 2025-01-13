@@ -1,0 +1,128 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\nivo-lightbox\close%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox\close.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox\default.css" />
+    <Content Remove="wwwroot\css\nivo-lightbox\loading%402x.gif" />
+    <Content Remove="wwwroot\css\nivo-lightbox\loading.gif" />
+    <Content Remove="wwwroot\css\nivo-lightbox\next%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox\next.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox\nivo-lightbox.css" />
+    <Content Remove="wwwroot\css\nivo-lightbox\prev%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox\prev.png" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\js\bootstrap.js" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\contact_me.js" />
+    <Content Remove="wwwroot\js\jqBootstrapValidation.js" />
+    <Content Remove="wwwroot\js\jquery.1.11.1.js" />
+    <Content Remove="wwwroot\js\jquery.isotope.js" />
+    <Content Remove="wwwroot\js\main.js" />
+    <Content Remove="wwwroot\js\nivo-lightbox.js" />
+    <Content Remove="wwwroot\js\SmoothScroll.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\nivo-lightbox\close.png" />
+    <None Include="wwwroot\css\nivo-lightbox\close@2x.png" />
+    <None Include="wwwroot\css\nivo-lightbox\default.css" />
+    <None Include="wwwroot\css\nivo-lightbox\loading.gif" />
+    <None Include="wwwroot\css\nivo-lightbox\loading@2x.gif" />
+    <None Include="wwwroot\css\nivo-lightbox\next.png" />
+    <None Include="wwwroot\css\nivo-lightbox\next@2x.png" />
+    <None Include="wwwroot\css\nivo-lightbox\nivo-lightbox.css" />
+    <None Include="wwwroot\css\nivo-lightbox\prev.png" />
+    <None Include="wwwroot\css\nivo-lightbox\prev@2x.png" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\fonts\font-awesome\css\font-awesome.css" />
+    <None Include="wwwroot\fonts\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\font-awesome\less\animated.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\bordered-pulled.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\core.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\fixed-width.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\font-awesome.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\icons.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\larger.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\list.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\mixins.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\path.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\rotated-flipped.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\stacked.less" />
+    <None Include="wwwroot\fonts\font-awesome\less\variables.less" />
+    <None Include="wwwroot\fonts\font-awesome\scss\font-awesome.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_animated.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_path.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\fonts\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\fonts\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\fonts\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\img\GreenMountain.jpg" />
+    <None Include="wwwroot\img\portfolio\01-large.jpg" />
+    <None Include="wwwroot\img\portfolio\01-small.jpg" />
+    <None Include="wwwroot\img\portfolio\02-large.jpg" />
+    <None Include="wwwroot\img\portfolio\02-small.jpg" />
+    <None Include="wwwroot\img\portfolio\03-large.jpg" />
+    <None Include="wwwroot\img\portfolio\03-small.jpg" />
+    <None Include="wwwroot\img\portfolio\04-large.jpg" />
+    <None Include="wwwroot\img\portfolio\04-small.jpg" />
+    <None Include="wwwroot\img\portfolio\05-large.jpg" />
+    <None Include="wwwroot\img\portfolio\05-small.jpg" />
+    <None Include="wwwroot\img\portfolio\06-large.jpg" />
+    <None Include="wwwroot\img\portfolio\06-small.jpg" />
+    <None Include="wwwroot\img\portfolio\07-large.jpg" />
+    <None Include="wwwroot\img\portfolio\07-small.jpg" />
+    <None Include="wwwroot\img\portfolio\08-large.jpg" />
+    <None Include="wwwroot\img\portfolio\08-small.jpg" />
+    <None Include="wwwroot\img\portfolio\09-large.jpg" />
+    <None Include="wwwroot\img\portfolio\09-small.jpg" />
+    <None Include="wwwroot\img\portfolio\10-large.jpg" />
+    <None Include="wwwroot\img\portfolio\10-small.jpg" />
+    <None Include="wwwroot\img\portfolio\11-large.jpg" />
+    <None Include="wwwroot\img\portfolio\11-small.jpg" />
+    <None Include="wwwroot\img\portfolio\12-large.jpg" />
+    <None Include="wwwroot\img\portfolio\12-small.jpg" />
+    <None Include="wwwroot\js\bootstrap.js" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\contact_me.js" />
+    <None Include="wwwroot\js\jqBootstrapValidation.js" />
+    <None Include="wwwroot\js\jquery.1.11.1.js" />
+    <None Include="wwwroot\js\jquery.isotope.js" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\js\nivo-lightbox.js" />
+    <None Include="wwwroot\js\SmoothScroll.js" />
+    <None Include="wwwroot\mail\contact_me.php" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+</Project>

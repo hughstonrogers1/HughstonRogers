@@ -1,0 +1,46 @@
+﻿@* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- ToDo List App -->
+        <div class="todo-container">
+            <h3 class="text-center mb-4">My ToDo List</h3>
+
+            <!-- Add New Item -->
+            <form id="addItemForm" class="form-inline mb-3">
+                <input type="text" id="newItemInput" class="form-control flex-grow-1 mr-2" placeholder="Add a new task..." required>
+                <button type="submit" class="btn btn-primary">Add</button>
+            </form>
+
+            <!-- List Items -->
+            <ul id="todoList" class="list-unstyled">
+                <!-- Example List Item -->
+                <li class="todo-item">
+                    <div>
+                        <input type="checkbox" class="todo-checkbox mr-2">
+                        <span class="todo-text">Example Task</span>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm btn-warning btn-edit">Edit</button>
+                        <button class="btn btn-sm btn-danger btn-delete">Delete</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="wwwroot/js/site.js"></script> <!-- Link to external JS -->
+</body>
+</html>
+ *@
